@@ -470,40 +470,7 @@ programa {
                   escreva("Percentual: ", val3*100/val, "%\n")
               
                   escreva("\n-------------------------------------------\n")
-                  escreva("Quantitativo de passajeiros por idade: \n\n")
-
-                  //Mostrar quantidade de passageiros pela idade                     
-                  para(fila = 0; fila < x; fila++)
-                  {
-                  	     para(coluna = 0; coluna < y; coluna++)
-                  	     {         	     	          	     	   
-                  	     	   se(crianca <= 12)
-                  	     	   {
-                  	     	   	    escreva("Ate 12 anos: ", crianca++, ".\n")
-                  	     	   	    escreva("-------------------------------------------\n")
-                  	     	   }
-
-                  	     	   se(jovem >= 13 ou jovem <= 17)
-                  	     	   {
-                  	     	   	    escreva("De 13 a 17 anos: ", jovem++, ".\n")
-                  	     	   	    escreva("-------------------------------------------\n")
-                  	     	   }
-
-                  	     	   se(adulto >= 18 ou adulto <= 59)
-                  	     	   {
-                  	     	   	    escreva("De 18 a 59 anos: ", adulto++, ".\n")
-                  	     	   	    escreva("-------------------------------------------\n")
-                  	     	   }
-
-                  	     	   se(idoso >= 60)
-                  	     	   {
-                  	     	   	    escreva("60 anos ou mais : ", idoso++, ".\n\n")
-                  	     	   } 
-                  	     	   escreva("-------------------------------------------\n")
-                                 escreva("\nPresione [ENTER] para acessar o menu principal.")      
-                                 leia(enter) 
-                                 menu_principal()     	     	   
-                  	     }  
+                  escreva("Quantitativo de passajeiros por idade: \n\n")                
                   } 
           }                
   }
